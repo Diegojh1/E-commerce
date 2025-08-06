@@ -12,6 +12,8 @@ Una aplicación React moderna que simula un catálogo de productos de e-commerce
 - [🎯 Funcionalidades](#-funcionalidades)
 - [🔧 Decisiones Técnicas](#-decisiones-técnicas)
 - [📱 Capturas de Pantalla](#-capturas-de-pantalla)
+- [🚀 Despliegue](#-despliegue)
+- [🧪 Testing](#-testing)
 - [🤝 Contribución](#-contribución)
 
 ## 🚀 Características
@@ -42,6 +44,7 @@ Una aplicación React moderna que simula un catálogo de productos de e-commerce
 
 ### Frontend
 - **React 19.1.1**: Framework principal
+- **React DOM 19.1.1**: Renderizado en el navegador
 - **Tailwind CSS 3.4.17**: Framework de estilos utility-first
 - **PostCSS 8.5.6**: Procesador de CSS
 - **Autoprefixer 10.4.21**: Auto-prefijos CSS
@@ -83,7 +86,7 @@ npm --version
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/Diegojh1/Diegoj.git
+   git clone https://github.com/Diegojh1/E-commerce.git
    cd ecommerce-test
    ```
 
@@ -140,33 +143,41 @@ ecommerce-test/
 ├── public/                     # Archivos públicos
 │   ├── index.html             # HTML principal
 │   ├── favicon.ico           # Icono del sitio
-│   └── manifest.json         # Manifest PWA
+│   ├── logo192.png           # Logo para PWA
+│   ├── logo512.png           # Logo para PWA
+│   ├── manifest.json         # Manifest PWA
+│   └── robots.txt            # Configuración SEO
 ├── src/                       # Código fuente
 │   ├── components/           # Componentes React
-│   │   ├── Header.js        # Header con navegación
-│   │   ├── Sidebar.js       # Sidebar con filtros
-│   │   ├── ProductCard.js   # Tarjeta de producto
-│   │   ├── ProductList.js   # Lista principal
-│   │   ├── ProductModal.js  # Modal de detalles
+│   │   ├── Header.js        # Header con navegación y búsqueda
+│   │   ├── Sidebar.js       # Sidebar con filtros avanzados
+│   │   ├── ProductCard.js   # Tarjeta de producto individual
+│   │   ├── ProductList.js   # Lista principal de productos
+│   │   ├── ProductModal.js  # Modal de detalles del producto
 │   │   ├── Pagination.js    # Componente de paginación
-│   │   ├── LoadingState.js  # Estado de carga
-│   │   ├── ErrorState.js    # Estado de error
-│   │   └── ProductFilters.js # Filtros (legacy)
+│   │   ├── LoadingState.js  # Estado de carga con skeleton
+│   │   ├── ErrorState.js    # Estado de error con reintentos
+│   │   └── ProductFilters.js # Filtros legacy (deprecated)
 │   ├── services/            # Lógica de negocio
-│   │   ├── productService.js    # API y normalización
-│   │   └── favoritesService.js  # Gestión de favoritos
+│   │   ├── productService.js    # API y normalización de datos
+│   │   └── favoritesService.js  # Gestión de favoritos en localStorage
 │   ├── hooks/              # Hooks personalizados
-│   │   ├── useProducts.js      # Estado centralizado
-│   │   └── useFilters.js       # Gestión de filtros
+│   │   ├── useProducts.js      # Estado centralizado de productos
+│   │   └── useFilters.js       # Gestión de filtros y búsqueda
 │   ├── data/               # Datos estáticos
-│   │   └── products.json       # Datos de productos
-│   ├── App.js              # Componente principal
+│   │   └── products.json       # Datos de productos con inconsistencias
+│   ├── App.js              # Componente principal de la aplicación
 │   ├── App.css             # Estilos globales
-│   ├── index.js            # Punto de entrada
-│   └── index.css           # Estilos base
+│   ├── App.test.js         # Tests del componente App
+│   ├── index.js            # Punto de entrada de la aplicación
+│   ├── index.css           # Estilos base y configuración Tailwind
+│   ├── logo.svg            # Logo de React
+│   ├── reportWebVitals.js  # Métricas de performance
+│   └── setupTests.js       # Configuración de tests
 ├── package.json            # Dependencias y scripts
-├── tailwind.config.js     # Configuración Tailwind
-├── postcss.config.js      # Configuración PostCSS
+├── package-lock.json       # Lock file de dependencias
+├── tailwind.config.js     # Configuración de Tailwind CSS
+├── postcss.config.js      # Configuración de PostCSS
 └── README.md              # Este archivo
 ```
 
@@ -428,7 +439,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Diego Hernández**
 - GitHub: [@Diegojh1](https://github.com/Diegojh1)
-- Repositorio: [https://github.com/Diegojh1/Diegoj.git](https://github.com/Diegojh1/Diegoj.git)
+- Repositorio: [https://github.com/Diegojh1/E-commerce.git](https://github.com/Diegojh1/E-commerce.git)
 
 ---
 

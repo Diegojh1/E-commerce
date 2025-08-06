@@ -1,0 +1,231 @@
+[
+  {
+    "productName": "Product 1",
+    "price": 484.44,
+    "category": "Food",
+    "details": {
+      "description": "This is a sample description for product 1.",
+      "weight": "",
+      "dimensions": {
+        "width": "N/A",
+        "height": 7,
+        "depth": 3
+      }
+    },
+    "created_at": 1735162071,
+    "isAvailable": false,
+    "status": "available",
+    "metadata": {
+      "id": "d4779ca0-8f13-4c25-ab07-9148f9bb8ce3",
+      "tags": []
+    }
+  },
+  {
+    "title": "Product 2",
+    "cost": null,
+    "category": "Toys",
+    "details": {
+      "description": "This is a sample description for product 2.",
+      "weight": "",
+      "dimensions": {
+        "width": "N/A",
+        "height": null,
+        "depth": 2
+      }
+    },
+    "created_at": "2023-06-05",
+    "isAvailable": "yes",
+    "status": "available",
+    "metadata": {
+      "id": "78aa50ff-37fc-4b7f-965d-d15b5177f2d0",
+      "tags": [
+        "popular"
+      ]
+    }
+  },
+  {
+    "productName": "Product 3",
+    "value": "free",
+    "category": "Tools",
+    "details": {
+      "description": "This is a sample description for product 3.",
+      "weight": "1kg",
+      "dimensions": {
+        "width": "N/A",
+        "height": 5,
+        "depth": 3
+      }
+    },
+    "created_at": 1699219671,
+    "isAvailable": "yes",
+    "status": "available",
+    "metadata": {
+      "id": "f2c9a57b-b820-40fa-a7ce-946b7ae4cf73",
+      "tags": []
+    }
+  },
+  {
+    "productName": "Product 4",
+    "price": "free",
+    "category": "Toys",
+    "details": {
+      "description": "This is a sample description for product 4.",
+      "weight": "1kg",
+      "dimensions": {
+        "width": "N/A",
+        "height": null,
+        "depth": 3
+      }
+    },
+    "created_at": 1752787671,
+    "isAvailable": false,
+    "status": null,
+    "metadata": {
+      "id": "706816e7-40b4-40c1-90ee-04f1c2430112",
+      "tags": [
+        "eco"
+      ]
+    }
+  },
+  {
+    "productName": "Product 5",
+    "value": 134.08,
+    "category": "Tools",
+    "details": {
+      "description": "This is a sample description for product 5.",
+      "weight": "500g",
+      "dimensions": {
+        "width": "N/A",
+        "height": 7,
+        "depth": 2
+      }
+    },
+    "created_at": 1708464471,
+    "isAvailable": true,
+    "status": "",
+    "metadata": {
+      "id": "e7a5c779-f30a-4d5a-af02-2c3409724816",
+      "tags": [
+        "popular",
+        "clearance"
+      ]
+    }
+  },
+  {
+    "title": "Product 6",
+    "price": null,
+    "category": "Electronics",
+    "details": {
+      "description": "This is a sample description for product 6.",
+      "weight": "1kg",
+      "dimensions": {
+        "width": 10,
+        "height": 7,
+        "depth": 2
+      }
+    },
+    "created_at": 1679779671,
+    "isAvailable": null,
+    "status": null,
+    "metadata": {
+      "id": "397e69cd-0a27-492c-b43a-f594c93ba761",
+      "tags": []
+    }
+  },
+  {
+    "name": "Product 7",
+    "value": null,
+    "category": "Toys",
+    "details": {
+      "description": "This is a sample description for product 7.",
+      "weight": null,
+      "dimensions": {
+        "width": "N/A",
+        "height": null,
+        "depth": 2
+      }
+    },
+    "created_at": "2025-04-24",
+    "isAvailable": false,
+    "status": "",
+    "metadata": {
+      "id": "aecf899a-4a0d-45b4-bcff-eccbf62cd413",
+      "tags": [
+        null,
+        "new"
+      ]
+    }
+  },
+  {
+    "title": "Product 8",
+    "value": 334.23,
+    "category": "Tools",
+    "details": {
+      "description": "This is a sample description for product 8.",
+      "weight": "500g",
+      "dimensions": {
+        "width": null,
+        "height": null,
+        "depth": 3
+      }
+    },
+    "created_at": "2025-01-28",
+    "isAvailable": false,
+    "status": "",
+    "metadata": {
+      "id": "ea0eaf96-05ed-4711-b767-eceb124861d7",
+      "tags": [
+        "clearance",
+        "sale",
+        "new",
+        null
+      ]
+    }
+  },
+  {
+    "name": "Product 9",
+    "price": "free",
+    "category": "Books",
+    "details": {
+      "description": "This is a sample description for product 9.",
+      "weight": "500g",
+      "dimensions": {
+        "width": 10,
+        "height": 5,
+        "depth": 3
+      }
+    },
+    "created_at": "invalid_date",
+    "isAvailable": null,
+    "status": "discontinued",
+    "metadata": {
+      "id": "986d8eba-5f18-4ee2-b2fa-25d271ec98bb",
+      "tags": [
+        "popular",
+        null,
+        "eco"
+      ]
+    }
+  },
+  {
+    "productName": "Product 10",
+    "price": "free",
+    "category": "Clothing",
+    "details": {
+      "description": "This is a sample description for product 10.",
+      "weight": "",
+      "dimensions": {
+        "width": null,
+        "height": 5,
+        "depth": null
+      }
+    },
+    "created_at": "2025-01-21",
+    "isAvailable": true,
+    "status": null,
+    "metadata": {
+      "id": "1fb8f2e1-6e5b-4922-ae76-8d3d0e9a7f3a",
+      "tags": []
+    }
+  }
+] 
